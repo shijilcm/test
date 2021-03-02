@@ -1,1 +1,39 @@
 theme: jekyll-theme-slate
+site_name: MiddlewaretEST
+repo_url: https://github.com/shijilcm/test.git
+theme:
+  name: material
+  logo: '/images/m
+use_directory_urls: false
+markdown_extensions:
+  - admonition
+
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+plugins:
+    - search
+    - markdownextradata
+extra:
+  captain:
+
+  - Home: index.md
+  - Team Services: team-services.md
+  - Getting Started: getting-started.md
+
+  - Product Docs:
+    - API Gateway: ref-apigateway.md
+
+  - Landscape:
+    - Boomi: land-boomi.md
+
+    - Pulsar: land-pulsar.md
+  - Roadmap:
+    - Boomi: rdmap-boomi.md
+    - Informatica: rdmap-informatica.md
+   
+# - Reference Library:
+#   - Boomi Dev Standards: std-boomi.md
+#   - Tibco Dev Standards: std-tibco.md
+  - Glossary: glossary.md
+  - About: about.md
